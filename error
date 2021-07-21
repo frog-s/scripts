@@ -1,0 +1,1 @@
+game:GetService("ReplicatedStorage").RemoteFunction:InvokeServer(66,"Effects","Basic")
