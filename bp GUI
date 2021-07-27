@@ -1,0 +1,2015 @@
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Lbackground = Instance.new("Frame")
+local s = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local shop = Instance.new("ImageButton")
+local TextLabel = Instance.new("TextLabel")
+local plr = Instance.new("ImageButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local tp = Instance.new("ImageButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local misc = Instance.new("ImageButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local other = Instance.new("ImageButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local BAHDDKQJGFDSKJHFDSF = Instance.new("Frame")
+local background = Instance.new("Frame")
+local Fun = Instance.new("Frame")
+local Inside = Instance.new("Frame")
+local shop_2 = Instance.new("ScrollingFrame")
+local cc = Instance.new("ImageButton")
+local buy = Instance.new("TextLabel")
+local type = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local name = Instance.new("TextLabel")
+local a = Instance.new("ImageButton")
+local buy_2 = Instance.new("TextLabel")
+local name_2 = Instance.new("TextLabel")
+local type_2 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local rain = Instance.new("ImageButton")
+local buy_3 = Instance.new("TextLabel")
+local type_3 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local name_3 = Instance.new("TextLabel")
+local UIGridLayout = Instance.new("UIGridLayout")
+local rr = Instance.new("ImageButton")
+local buy_4 = Instance.new("TextLabel")
+local type_4 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local name_4 = Instance.new("TextLabel")
+local tp_2 = Instance.new("Frame")
+local places = Instance.new("ScrollingFrame")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local bp = Instance.new("ImageButton")
+local join = Instance.new("TextLabel")
+local name_5 = Instance.new("TextLabel")
+local bg = Instance.new("Frame")
+local d = Instance.new("ImageButton")
+local join_2 = Instance.new("TextLabel")
+local name_6 = Instance.new("TextLabel")
+local bg_2 = Instance.new("Frame")
+local dds = Instance.new("ImageButton")
+local join_3 = Instance.new("TextLabel")
+local name_7 = Instance.new("TextLabel")
+local bg_3 = Instance.new("Frame")
+local dv = Instance.new("ImageButton")
+local join_4 = Instance.new("TextLabel")
+local name_8 = Instance.new("TextLabel")
+local bg_4 = Instance.new("Frame")
+local ffa = Instance.new("ImageButton")
+local join_5 = Instance.new("TextLabel")
+local name_9 = Instance.new("TextLabel")
+local bg_5 = Instance.new("Frame")
+local gs = Instance.new("ImageButton")
+local join_6 = Instance.new("TextLabel")
+local name_10 = Instance.new("TextLabel")
+local bg_6 = Instance.new("Frame")
+local normal = Instance.new("ImageButton")
+local join_7 = Instance.new("TextLabel")
+local name_11 = Instance.new("TextLabel")
+local bg_7 = Instance.new("Frame")
+local tp_3 = Instance.new("ScrollingFrame")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local tpplace = Instance.new("ImageButton")
+local join_8 = Instance.new("TextLabel")
+local bg_8 = Instance.new("Frame")
+local placeid = Instance.new("TextBox")
+local tpplayer = Instance.new("ImageButton")
+local join_9 = Instance.new("TextLabel")
+local bg_9 = Instance.new("Frame")
+local name_12 = Instance.new("TextBox")
+local bg_10 = Instance.new("ImageLabel")
+local dbg = Instance.new("ImageLabel")
+local n = Instance.new("Frame")
+local TextLabel_14 = Instance.new("TextLabel")
+local misc_2 = Instance.new("ScrollingFrame")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local fake = Instance.new("ImageButton")
+local fake_2 = Instance.new("ImageButton")
+local fake_3 = Instance.new("TextButton")
+local dog = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local TextLabel_15 = Instance.new("TextLabel")
+local other_2 = Instance.new("ScrollingFrame")
+local show = Instance.new("TextButton")
+local hide = Instance.new("TextButton")
+local vip = Instance.new("ImageButton")
+local buy_5 = Instance.new("TextLabel")
+local type_5 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local name_13 = Instance.new("TextLabel")
+local black = Instance.new("ImageButton")
+local buy_6 = Instance.new("TextLabel")
+local type_6 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local name_14 = Instance.new("TextLabel")
+local UIGridLayout_2 = Instance.new("UIGridLayout")
+local Folder = Instance.new("Folder")
+local bg_11 = Instance.new("ImageLabel")
+local bg_12 = Instance.new("ImageLabel")
+local plrs = Instance.new("ScrollingFrame")
+local p = Instance.new("Folder")
+local UIListLayout_5 = Instance.new("UIListLayout")
+local temp = Instance.new("ImageLabel")
+local temp_2 = Instance.new("TextLabel")
+local ban = Instance.new("Frame")
+local radio = Instance.new("Frame")
+local tips = Instance.new("ImageLabel")
+local t = Instance.new("TextLabel")
+local credits = Instance.new("Frame")
+local credits_2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Lbackground.Name = "Lbackground"
+Lbackground.Parent = ScreenGui
+Lbackground.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lbackground.BackgroundTransparency = 1.000
+Lbackground.BorderSizePixel = 0
+Lbackground.Position = UDim2.new(0.648809552, 0, 0.381595105, 0)
+Lbackground.Size = UDim2.new(0, 102, 0, 250)
+
+s.Name = "s"
+s.Parent = Lbackground
+s.Active = true
+s.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+s.BackgroundTransparency = 1.000
+s.BorderSizePixel = 0
+s.Position = UDim2.new(0.0300352816, 0, 0.0294716805, 0)
+s.Size = UDim2.new(0, 81, 0, 249)
+s.ZIndex = 5
+s.BottomImage = ""
+s.CanvasSize = UDim2.new(0, 0, 1, 0)
+s.ScrollBarThickness = 3
+s.ScrollingEnabled = false
+s.TopImage = ""
+
+UIListLayout.Parent = s
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 18)
+
+shop.Name = "shop"
+shop.Parent = s
+shop.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shop.BackgroundTransparency = 1.000
+shop.Position = UDim2.new(-0.48368454, 0, 0.837774038, 0)
+shop.Size = UDim2.new(0, 75, 0, 34)
+shop.ZIndex = 2
+shop.Image = "rbxassetid://718584710"
+shop.ImageColor3 = Color3.fromRGB(93, 93, 93)
+
+TextLabel.Parent = shop
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 75, 0, 34)
+TextLabel.ZIndex = 5
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "Shop"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+plr.Name = "plr"
+plr.Parent = s
+plr.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+plr.BackgroundTransparency = 1.000
+plr.Position = UDim2.new(-0.48368454, 0, 0.837774038, 0)
+plr.Size = UDim2.new(0, 75, 0, 34)
+plr.ZIndex = 2
+plr.Image = "rbxassetid://718584710"
+plr.ImageColor3 = Color3.fromRGB(93, 93, 93)
+
+TextLabel_2.Parent = plr
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(0, 75, 0, 34)
+TextLabel_2.ZIndex = 5
+TextLabel_2.Font = Enum.Font.SciFi
+TextLabel_2.Text = "Players"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+tp.Name = "tp"
+tp.Parent = s
+tp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tp.BackgroundTransparency = 1.000
+tp.Position = UDim2.new(-0.48368454, 0, 0.837774038, 0)
+tp.Size = UDim2.new(0, 75, 0, 34)
+tp.ZIndex = 2
+tp.Image = "rbxassetid://718584710"
+tp.ImageColor3 = Color3.fromRGB(93, 93, 93)
+
+TextLabel_3.Parent = tp
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Size = UDim2.new(0, 75, 0, 34)
+TextLabel_3.ZIndex = 5
+TextLabel_3.Font = Enum.Font.SciFi
+TextLabel_3.Text = "Teleport"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+misc.Name = "misc"
+misc.Parent = s
+misc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+misc.BackgroundTransparency = 1.000
+misc.Position = UDim2.new(-0.48368454, 0, 0.837774038, 0)
+misc.Size = UDim2.new(0, 75, 0, 34)
+misc.ZIndex = 2
+misc.Image = "rbxassetid://718584710"
+misc.ImageColor3 = Color3.fromRGB(93, 93, 93)
+
+TextLabel_4.Parent = misc
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Size = UDim2.new(0, 75, 0, 34)
+TextLabel_4.ZIndex = 5
+TextLabel_4.Font = Enum.Font.SciFi
+TextLabel_4.Text = "Misc"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+other.Name = "other"
+other.Parent = s
+other.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+other.BackgroundTransparency = 1.000
+other.Position = UDim2.new(-0.48368454, 0, 0.837774038, 0)
+other.Size = UDim2.new(0, 75, 0, 34)
+other.ZIndex = 2
+other.Image = "rbxassetid://718584710"
+other.ImageColor3 = Color3.fromRGB(93, 93, 93)
+
+TextLabel_5.Parent = other
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Size = UDim2.new(0, 75, 0, 34)
+TextLabel_5.ZIndex = 5
+TextLabel_5.Font = Enum.Font.SciFi
+TextLabel_5.Text = "Other"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+BAHDDKQJGFDSKJHFDSF.Name = "BAHDDKQJGFDSKJHFDSF"
+BAHDDKQJGFDSKJHFDSF.Parent = Lbackground
+BAHDDKQJGFDSKJHFDSF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BAHDDKQJGFDSKJHFDSF.Position = UDim2.new(-0.0112047382, 0, -1.22070318e-07, 0)
+BAHDDKQJGFDSKJHFDSF.Size = UDim2.new(0, 88, 0, 257)
+BAHDDKQJGFDSKJHFDSF.Style = Enum.FrameStyle.DropShadow
+
+background.Name = "background"
+background.Parent = ScreenGui
+background.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+background.Position = UDim2.new(0.647959232, 0, 0.381595105, 0)
+background.Size = UDim2.new(0, 381, 0, 257)
+background.Style = Enum.FrameStyle.DropShadow
+
+Fun.Name = "Fun"
+Fun.Parent = ScreenGui
+Fun.BackgroundColor3 = Color3.fromRGB(125, 125, 125)
+Fun.BackgroundTransparency = 1.000
+Fun.BorderSizePixel = 0
+Fun.Position = UDim2.new(0.720845461, 0, 0.381595105, 0)
+Fun.Size = UDim2.new(0, 260, 0, 250)
+
+Inside.Name = "Inside"
+Inside.Parent = Fun
+Inside.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Inside.BackgroundTransparency = 1.000
+Inside.BorderSizePixel = 0
+Inside.Position = UDim2.new(0, 0, 0.0240000002, 0)
+Inside.Size = UDim2.new(0, 276, 0, 244)
+
+shop_2.Name = "shop"
+shop_2.Parent = Inside
+shop_2.Active = true
+shop_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shop_2.BackgroundTransparency = 1.000
+shop_2.Position = UDim2.new(-0.0360837206, 0, 0, 0)
+shop_2.Size = UDim2.new(0, 291, 0, 251)
+shop_2.Visible = false
+shop_2.CanvasSize = UDim2.new(0, 0, 1, 0)
+
+cc.Name = "cc"
+cc.Parent = shop_2
+cc.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+cc.BackgroundTransparency = 0.400
+cc.BorderColor3 = Color3.fromRGB(255, 237, 93)
+cc.BorderSizePixel = 0
+cc.Position = UDim2.new(-1.23123288, 0, -0.0249323696, 0)
+cc.Size = UDim2.new(0, 100, 0, 100)
+cc.Image = "rbxassetid://7162648601"
+
+buy.Name = "buy"
+buy.Parent = cc
+buy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+buy.BackgroundTransparency = 0.800
+buy.BorderSizePixel = 0
+buy.Size = UDim2.new(1, 0, 1, 0)
+buy.Font = Enum.Font.Code
+buy.Text = "Click to Buy"
+buy.TextColor3 = Color3.fromRGB(255, 255, 255)
+buy.TextSize = 14.000
+
+type.Name = "type"
+type.Parent = cc
+type.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+type.BackgroundTransparency = 0.500
+type.BorderSizePixel = 0
+type.Position = UDim2.new(0, 0, 1, -20)
+type.Size = UDim2.new(1, 0, 0, 20)
+type.Font = Enum.Font.SourceSansItalic
+type.Text = "Legendary"
+type.TextColor3 = Color3.fromRGB(255, 106, 106)
+type.TextSize = 11.000
+type.TextStrokeTransparency = 0.950
+type.TextTransparency = 0.300
+type.TextWrapped = true
+
+TextLabel_6.Parent = type
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BackgroundTransparency = 0.900
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0, 0, 0, -1)
+TextLabel_6.Size = UDim2.new(1, 0, 0, 1)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = ""
+TextLabel_6.TextSize = 14.000
+
+TextLabel_7.Parent = TextLabel_6
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BackgroundTransparency = 0.950
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0, 0, 0, -1)
+TextLabel_7.Size = UDim2.new(1, 0, 0, 1)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = ""
+TextLabel_7.TextSize = 14.000
+
+name.Name = "name"
+name.Parent = cc
+name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name.BackgroundTransparency = 1.000
+name.Size = UDim2.new(1, 0, 0, 20)
+name.Font = Enum.Font.SciFi
+name.Text = "Candy Crown"
+name.TextColor3 = Color3.fromRGB(255, 255, 255)
+name.TextSize = 12.000
+name.TextStrokeTransparency = 0.950
+
+a.Name = "a"
+a.Parent = shop_2
+a.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+a.BackgroundTransparency = 0.400
+a.BorderColor3 = Color3.fromRGB(255, 237, 93)
+a.BorderSizePixel = 0
+a.Position = UDim2.new(-1.23123288, 0, -0.0249323696, 0)
+a.Size = UDim2.new(0, 100, 0, 100)
+a.Image = "rbxassetid://7162694216"
+
+buy_2.Name = "buy"
+buy_2.Parent = a
+buy_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+buy_2.BackgroundTransparency = 0.800
+buy_2.BorderSizePixel = 0
+buy_2.Size = UDim2.new(1, 0, 1, 0)
+buy_2.Font = Enum.Font.Code
+buy_2.Text = "Click to Buy"
+buy_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+buy_2.TextSize = 14.000
+
+name_2.Name = "name"
+name_2.Parent = a
+name_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_2.BackgroundTransparency = 1.000
+name_2.Size = UDim2.new(1, 0, 0, 20)
+name_2.Font = Enum.Font.SciFi
+name_2.Text = "Antlers"
+name_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+name_2.TextSize = 12.000
+name_2.TextStrokeTransparency = 0.950
+
+type_2.Name = "type"
+type_2.Parent = a
+type_2.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+type_2.BackgroundTransparency = 0.500
+type_2.BorderSizePixel = 0
+type_2.Position = UDim2.new(0, 0, 1, -20)
+type_2.Size = UDim2.new(1, 0, 0, 20)
+type_2.Font = Enum.Font.SourceSansItalic
+type_2.Text = "Bow"
+type_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+type_2.TextSize = 14.000
+type_2.TextStrokeTransparency = 0.950
+type_2.TextTransparency = 0.300
+type_2.TextWrapped = true
+
+TextLabel_8.Parent = type_2
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BackgroundTransparency = 0.900
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0, 0, 0, -1)
+TextLabel_8.Size = UDim2.new(1, 0, 0, 1)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = ""
+TextLabel_8.TextSize = 14.000
+
+TextLabel_9.Parent = TextLabel_8
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BackgroundTransparency = 0.950
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0, 0, 0, -1)
+TextLabel_9.Size = UDim2.new(1, 0, 0, 1)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = ""
+TextLabel_9.TextSize = 14.000
+
+rain.Name = "rain"
+rain.Parent = shop_2
+rain.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+rain.BackgroundTransparency = 0.400
+rain.BorderColor3 = Color3.fromRGB(255, 237, 93)
+rain.BorderSizePixel = 0
+rain.Position = UDim2.new(-1.23123288, 0, -0.0249323696, 0)
+rain.Size = UDim2.new(0, 100, 0, 100)
+rain.Image = "rbxassetid://3405267362"
+
+buy_3.Name = "buy"
+buy_3.Parent = rain
+buy_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+buy_3.BackgroundTransparency = 0.800
+buy_3.BorderSizePixel = 0
+buy_3.Size = UDim2.new(1, 0, 1, 0)
+buy_3.Font = Enum.Font.Code
+buy_3.Text = "Click to Buy"
+buy_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+buy_3.TextSize = 14.000
+
+type_3.Name = "type"
+type_3.Parent = rain
+type_3.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+type_3.BackgroundTransparency = 0.500
+type_3.BorderSizePixel = 0
+type_3.Position = UDim2.new(0, 0, 1, -20)
+type_3.Size = UDim2.new(1, 0, 0, 20)
+type_3.Font = Enum.Font.SourceSansItalic
+type_3.Text = "Divine"
+type_3.TextColor3 = Color3.fromRGB(255, 204, 0)
+type_3.TextSize = 14.000
+type_3.TextStrokeTransparency = 0.950
+type_3.TextTransparency = 0.300
+type_3.TextWrapped = true
+
+TextLabel_10.Parent = type_3
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.BackgroundTransparency = 0.900
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0, 0, 0, -1)
+TextLabel_10.Size = UDim2.new(1, 0, 0, 1)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = ""
+TextLabel_10.TextSize = 14.000
+
+TextLabel_11.Parent = TextLabel_10
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.BackgroundTransparency = 0.950
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0, 0, 0, -1)
+TextLabel_11.Size = UDim2.new(1, 0, 0, 1)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = ""
+TextLabel_11.TextSize = 14.000
+
+name_3.Name = "name"
+name_3.Parent = rain
+name_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_3.BackgroundTransparency = 1.000
+name_3.Size = UDim2.new(1, 0, 0, 20)
+name_3.Font = Enum.Font.SciFi
+name_3.Text = "/e rain"
+name_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+name_3.TextSize = 12.000
+name_3.TextStrokeTransparency = 0.950
+
+UIGridLayout.Parent = shop_2
+UIGridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+UIGridLayout.CellPadding = UDim2.new(0, 50, 0, 20)
+UIGridLayout.FillDirectionMaxCells = 2
+
+rr.Name = "rr"
+rr.Parent = shop_2
+rr.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+rr.BackgroundTransparency = 0.400
+rr.BorderColor3 = Color3.fromRGB(255, 237, 93)
+rr.BorderSizePixel = 0
+rr.Position = UDim2.new(-1.23123288, 0, -0.0249323696, 0)
+rr.Size = UDim2.new(0, 100, 0, 100)
+rr.Image = "rbxassetid://7162709365"
+
+buy_4.Name = "buy"
+buy_4.Parent = rr
+buy_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+buy_4.BackgroundTransparency = 0.800
+buy_4.BorderSizePixel = 0
+buy_4.Size = UDim2.new(1, 0, 1, 0)
+buy_4.Font = Enum.Font.Code
+buy_4.Text = "Click to Buy"
+buy_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+buy_4.TextSize = 14.000
+
+type_4.Name = "type"
+type_4.Parent = rr
+type_4.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+type_4.BackgroundTransparency = 0.500
+type_4.BorderSizePixel = 0
+type_4.Position = UDim2.new(0, 0, 1, -20)
+type_4.Size = UDim2.new(1, 0, 0, 20)
+type_4.Font = Enum.Font.SourceSansItalic
+type_4.Text = "Legendary"
+type_4.TextColor3 = Color3.fromRGB(255, 106, 106)
+type_4.TextSize = 11.000
+type_4.TextStrokeTransparency = 0.950
+type_4.TextTransparency = 0.300
+type_4.TextWrapped = true
+
+TextLabel_12.Parent = type_4
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.BackgroundTransparency = 0.900
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0, 0, 0, -1)
+TextLabel_12.Size = UDim2.new(1, 0, 0, 1)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = ""
+TextLabel_12.TextSize = 14.000
+
+TextLabel_13.Parent = TextLabel_12
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.BackgroundTransparency = 0.950
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(0, 0, 0, -1)
+TextLabel_13.Size = UDim2.new(1, 0, 0, 1)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = ""
+TextLabel_13.TextSize = 14.000
+
+name_4.Name = "name"
+name_4.Parent = rr
+name_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_4.BackgroundTransparency = 1.000
+name_4.Size = UDim2.new(1, 0, 0, 20)
+name_4.Font = Enum.Font.SciFi
+name_4.Text = "Royal Red"
+name_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+name_4.TextSize = 12.000
+name_4.TextStrokeTransparency = 0.950
+
+tp_2.Name = "tp"
+tp_2.Parent = Inside
+tp_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tp_2.BackgroundTransparency = 1.000
+tp_2.Position = UDim2.new(-0.0360837206, 0, 0, 0)
+tp_2.Size = UDim2.new(0, 291, 0, 251)
+tp_2.Visible = false
+
+places.Name = "places"
+places.Parent = tp_2
+places.Active = true
+places.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+places.BackgroundTransparency = 1.000
+places.BorderSizePixel = 0
+places.Position = UDim2.new(0, 0, 0.0385523327, 0)
+places.Size = UDim2.new(0, 282, 0, 83)
+places.ZIndex = 9
+places.BottomImage = ""
+places.CanvasSize = UDim2.new(0, 0, 1.20000005, 0)
+places.ScrollBarThickness = 3
+places.TopImage = ""
+
+UIListLayout_2.Parent = places
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Right
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0, 10)
+
+bp.Name = "bp"
+bp.Parent = places
+bp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bp.BackgroundTransparency = 1.000
+bp.BorderSizePixel = 0
+bp.Position = UDim2.new(-0.143642649, 0, -0.662350595, 0)
+bp.Size = UDim2.new(0, 75, 0, 34)
+bp.ZIndex = 3
+bp.Image = "rbxassetid://718584710"
+bp.ImageColor3 = Color3.fromRGB(93, 93, 93)
+
+join.Name = "join"
+join.Parent = bp
+join.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+join.BackgroundTransparency = 1.000
+join.Size = UDim2.new(0, 75, 0, 34)
+join.ZIndex = 4
+join.Font = Enum.Font.SciFi
+join.Text = "JOIN"
+join.TextColor3 = Color3.fromRGB(255, 255, 255)
+join.TextSize = 14.000
+join.TextTransparency = 0.300
+
+name_5.Name = "name"
+name_5.Parent = bp
+name_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_5.BackgroundTransparency = 1.000
+name_5.Position = UDim2.new(-2.05333328, 0, 0, 0)
+name_5.Size = UDim2.new(0, 229, 0, 34)
+name_5.ZIndex = 4
+name_5.Font = Enum.Font.SciFi
+name_5.Text = "Breaking Point"
+name_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+name_5.TextSize = 14.000
+name_5.TextStrokeTransparency = 0.800
+name_5.TextXAlignment = Enum.TextXAlignment.Left
+
+bg.Name = "bg"
+bg.Parent = bp
+bg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bg.Position = UDim2.new(-5.83724594, 0, -0.165649414, 0)
+bg.Size = UDim2.new(0, 524, 0, 45)
+bg.ZIndex = 2
+bg.Style = Enum.FrameStyle.DropShadow
+
+d.Name = "d"
+d.Parent = places
+d.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+d.BackgroundTransparency = 1.000
+d.BorderSizePixel = 0
+d.Position = UDim2.new(-0.143642649, 0, -0.662350595, 0)
+d.Size = UDim2.new(0, 75, 0, 34)
+d.ZIndex = 3
+d.Image = "rbxassetid://718584710"
+d.ImageColor3 = Color3.fromRGB(93, 93, 93)
+
+join_2.Name = "join"
+join_2.Parent = d
+join_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+join_2.BackgroundTransparency = 1.000
+join_2.Size = UDim2.new(0, 75, 0, 34)
+join_2.ZIndex = 4
+join_2.Font = Enum.Font.SciFi
+join_2.Text = "JOIN"
+join_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+join_2.TextSize = 14.000
+join_2.TextTransparency = 0.300
+
+name_6.Name = "name"
+name_6.Parent = d
+name_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_6.BackgroundTransparency = 1.000
+name_6.Position = UDim2.new(-2.05333328, 0, 0, 0)
+name_6.Size = UDim2.new(0, 229, 0, 34)
+name_6.ZIndex = 4
+name_6.Font = Enum.Font.SciFi
+name_6.Text = "Duos"
+name_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+name_6.TextSize = 14.000
+name_6.TextStrokeTransparency = 0.800
+name_6.TextXAlignment = Enum.TextXAlignment.Left
+
+bg_2.Name = "bg"
+bg_2.Parent = d
+bg_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bg_2.Position = UDim2.new(-5.25333357, 0, -0.165649414, 0)
+bg_2.Size = UDim2.new(0, 481, 0, 45)
+bg_2.ZIndex = 2
+bg_2.Style = Enum.FrameStyle.DropShadow
+
+dds.Name = "dds"
+dds.Parent = places
+dds.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dds.BackgroundTransparency = 1.000
+dds.BorderSizePixel = 0
+dds.Position = UDim2.new(-0.143642649, 0, -0.662350595, 0)
+dds.Size = UDim2.new(0, 75, 0, 34)
+dds.ZIndex = 3
+dds.Image = "rbxassetid://718584710"
+dds.ImageColor3 = Color3.fromRGB(93, 93, 93)
+
+join_3.Name = "join"
+join_3.Parent = dds
+join_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+join_3.BackgroundTransparency = 1.000
+join_3.Size = UDim2.new(0, 75, 0, 34)
+join_3.ZIndex = 4
+join_3.Font = Enum.Font.SciFi
+join_3.Text = "JOIN"
+join_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+join_3.TextSize = 14.000
+join_3.TextTransparency = 0.300
+
+name_7.Name = "name"
+name_7.Parent = dds
+name_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_7.BackgroundTransparency = 1.000
+name_7.Position = UDim2.new(-2.05333328, 0, 0, 0)
+name_7.Size = UDim2.new(0, 229, 0, 34)
+name_7.ZIndex = 4
+name_7.Font = Enum.Font.SciFi
+name_7.Text = "Duck Duck Stab"
+name_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+name_7.TextSize = 14.000
+name_7.TextStrokeTransparency = 0.800
+name_7.TextXAlignment = Enum.TextXAlignment.Left
+
+bg_3.Name = "bg"
+bg_3.Parent = dds
+bg_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bg_3.Position = UDim2.new(-5.25333357, 0, -0.165649414, 0)
+bg_3.Size = UDim2.new(0, 481, 0, 45)
+bg_3.ZIndex = 2
+bg_3.Style = Enum.FrameStyle.DropShadow
+
+dv.Name = "dv"
+dv.Parent = places
+dv.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dv.BackgroundTransparency = 1.000
+dv.BorderSizePixel = 0
+dv.Position = UDim2.new(-0.143642649, 0, -0.662350595, 0)
+dv.Size = UDim2.new(0, 75, 0, 34)
+dv.ZIndex = 3
+dv.Image = "rbxassetid://718584710"
+dv.ImageColor3 = Color3.fromRGB(93, 93, 93)
+
+join_4.Name = "join"
+join_4.Parent = dv
+join_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+join_4.BackgroundTransparency = 1.000
+join_4.Size = UDim2.new(0, 75, 0, 34)
+join_4.ZIndex = 4
+join_4.Font = Enum.Font.SciFi
+join_4.Text = "JOIN"
+join_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+join_4.TextSize = 14.000
+join_4.TextTransparency = 0.300
+
+name_8.Name = "name"
+name_8.Parent = dv
+name_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_8.BackgroundTransparency = 1.000
+name_8.Position = UDim2.new(-2.05333328, 0, 0, 0)
+name_8.Size = UDim2.new(0, 229, 0, 34)
+name_8.ZIndex = 4
+name_8.Font = Enum.Font.SciFi
+name_8.Text = "Double Votes"
+name_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+name_8.TextSize = 14.000
+name_8.TextStrokeTransparency = 0.800
+name_8.TextXAlignment = Enum.TextXAlignment.Left
+
+bg_4.Name = "bg"
+bg_4.Parent = dv
+bg_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bg_4.Position = UDim2.new(-5.25333357, 0, -0.165649414, 0)
+bg_4.Size = UDim2.new(0, 481, 0, 45)
+bg_4.ZIndex = 2
+bg_4.Style = Enum.FrameStyle.DropShadow
+
+ffa.Name = "ffa"
+ffa.Parent = places
+ffa.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ffa.BackgroundTransparency = 1.000
+ffa.BorderSizePixel = 0
+ffa.Position = UDim2.new(-0.143642649, 0, -0.662350595, 0)
+ffa.Size = UDim2.new(0, 75, 0, 34)
+ffa.ZIndex = 3
+ffa.Image = "rbxassetid://718584710"
+ffa.ImageColor3 = Color3.fromRGB(93, 93, 93)
+
+join_5.Name = "join"
+join_5.Parent = ffa
+join_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+join_5.BackgroundTransparency = 1.000
+join_5.Size = UDim2.new(0, 75, 0, 34)
+join_5.ZIndex = 4
+join_5.Font = Enum.Font.SciFi
+join_5.Text = "JOIN"
+join_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+join_5.TextSize = 14.000
+join_5.TextTransparency = 0.300
+
+name_9.Name = "name"
+name_9.Parent = ffa
+name_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_9.BackgroundTransparency = 1.000
+name_9.Position = UDim2.new(-2.05333328, 0, 0, 0)
+name_9.Size = UDim2.new(0, 229, 0, 34)
+name_9.ZIndex = 4
+name_9.Font = Enum.Font.SciFi
+name_9.Text = "Free For All"
+name_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+name_9.TextSize = 14.000
+name_9.TextStrokeTransparency = 0.800
+name_9.TextXAlignment = Enum.TextXAlignment.Left
+
+bg_5.Name = "bg"
+bg_5.Parent = ffa
+bg_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bg_5.Position = UDim2.new(-5.25333357, 0, -0.165649414, 0)
+bg_5.Size = UDim2.new(0, 481, 0, 45)
+bg_5.ZIndex = 2
+bg_5.Style = Enum.FrameStyle.DropShadow
+
+gs.Name = "gs"
+gs.Parent = places
+gs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gs.BackgroundTransparency = 1.000
+gs.BorderSizePixel = 0
+gs.Position = UDim2.new(-0.143642649, 0, -0.662350595, 0)
+gs.Size = UDim2.new(0, 75, 0, 34)
+gs.ZIndex = 3
+gs.Image = "rbxassetid://718584710"
+gs.ImageColor3 = Color3.fromRGB(93, 93, 93)
+
+join_6.Name = "join"
+join_6.Parent = gs
+join_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+join_6.BackgroundTransparency = 1.000
+join_6.Size = UDim2.new(0, 75, 0, 34)
+join_6.ZIndex = 4
+join_6.Font = Enum.Font.SciFi
+join_6.Text = "JOIN"
+join_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+join_6.TextSize = 14.000
+join_6.TextTransparency = 0.300
+
+name_10.Name = "name"
+name_10.Parent = gs
+name_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_10.BackgroundTransparency = 1.000
+name_10.Position = UDim2.new(-2.05333328, 0, 0, 0)
+name_10.Size = UDim2.new(0, 229, 0, 34)
+name_10.ZIndex = 4
+name_10.Font = Enum.Font.SciFi
+name_10.Text = "Gunslinger"
+name_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+name_10.TextSize = 14.000
+name_10.TextStrokeTransparency = 0.800
+name_10.TextXAlignment = Enum.TextXAlignment.Left
+
+bg_6.Name = "bg"
+bg_6.Parent = gs
+bg_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bg_6.Position = UDim2.new(-5.25333357, 0, -0.165649414, 0)
+bg_6.Size = UDim2.new(0, 481, 0, 45)
+bg_6.ZIndex = 2
+bg_6.Style = Enum.FrameStyle.DropShadow
+
+normal.Name = "normal"
+normal.Parent = places
+normal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+normal.BackgroundTransparency = 1.000
+normal.BorderSizePixel = 0
+normal.Position = UDim2.new(-0.143642649, 0, -0.662350595, 0)
+normal.Size = UDim2.new(0, 75, 0, 34)
+normal.ZIndex = 3
+normal.Image = "rbxassetid://718584710"
+normal.ImageColor3 = Color3.fromRGB(93, 93, 93)
+
+join_7.Name = "join"
+join_7.Parent = normal
+join_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+join_7.BackgroundTransparency = 1.000
+join_7.Size = UDim2.new(0, 75, 0, 34)
+join_7.ZIndex = 4
+join_7.Font = Enum.Font.SciFi
+join_7.Text = "JOIN"
+join_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+join_7.TextSize = 14.000
+join_7.TextTransparency = 0.300
+
+name_11.Name = "name"
+name_11.Parent = normal
+name_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_11.BackgroundTransparency = 1.000
+name_11.Position = UDim2.new(-2.05333328, 0, 0, 0)
+name_11.Size = UDim2.new(0, 229, 0, 34)
+name_11.ZIndex = 4
+name_11.Font = Enum.Font.SciFi
+name_11.Text = "Normal"
+name_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+name_11.TextSize = 14.000
+name_11.TextStrokeTransparency = 0.800
+name_11.TextXAlignment = Enum.TextXAlignment.Left
+
+bg_7.Name = "bg"
+bg_7.Parent = normal
+bg_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bg_7.Position = UDim2.new(-5.25333357, 0, -0.165649414, 0)
+bg_7.Size = UDim2.new(0, 481, 0, 45)
+bg_7.ZIndex = 2
+bg_7.Style = Enum.FrameStyle.DropShadow
+
+tp_3.Name = "tp"
+tp_3.Parent = tp_2
+tp_3.Active = true
+tp_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tp_3.BackgroundTransparency = 1.000
+tp_3.BorderSizePixel = 0
+tp_3.Position = UDim2.new(-0.00343642617, 0, 0.492621809, 0)
+tp_3.Size = UDim2.new(0, 282, 0, 119)
+tp_3.BottomImage = ""
+tp_3.CanvasSize = UDim2.new(0, 0, 1, 0)
+tp_3.ScrollBarThickness = 3
+tp_3.ScrollingEnabled = false
+tp_3.TopImage = ""
+
+UIListLayout_3.Parent = tp_3
+UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Right
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.Padding = UDim.new(0, 40)
+
+tpplace.Name = "tpplace"
+tpplace.Parent = tp_3
+tpplace.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+tpplace.BackgroundTransparency = 1.000
+tpplace.BorderSizePixel = 0
+tpplace.Position = UDim2.new(-1.58346558, 0, 1.57517302, 0)
+tpplace.Size = UDim2.new(0, 75, 0, 34)
+tpplace.ZIndex = 9
+tpplace.Image = "rbxassetid://718584710"
+tpplace.ImageColor3 = Color3.fromRGB(93, 93, 93)
+
+join_8.Name = "join"
+join_8.Parent = tpplace
+join_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+join_8.BackgroundTransparency = 1.000
+join_8.Size = UDim2.new(0, 75, 0, 34)
+join_8.ZIndex = 6
+join_8.Font = Enum.Font.SciFi
+join_8.Text = "JOIN"
+join_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+join_8.TextSize = 14.000
+join_8.TextTransparency = 0.300
+
+bg_8.Name = "bg"
+bg_8.Parent = tpplace
+bg_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bg_8.Position = UDim2.new(-5.25333357, 0, -0.165649414, 0)
+bg_8.Size = UDim2.new(0, 481, 0, 45)
+bg_8.ZIndex = 2
+bg_8.Style = Enum.FrameStyle.DropShadow
+
+placeid.Name = "placeid"
+placeid.Parent = tpplace
+placeid.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+placeid.BackgroundTransparency = 1.000
+placeid.Position = UDim2.new(-2.4666667, 0, 0, 0)
+placeid.Size = UDim2.new(0, 169, 0, 34)
+placeid.ZIndex = 3
+placeid.Font = Enum.Font.SciFi
+placeid.PlaceholderText = "PLACE ID [WIP]"
+placeid.Text = ""
+placeid.TextColor3 = Color3.fromRGB(255, 255, 255)
+placeid.TextSize = 17.000
+placeid.TextWrapped = true
+
+tpplayer.Name = "tpplayer"
+tpplayer.Parent = tp_3
+tpplayer.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+tpplayer.BackgroundTransparency = 1.000
+tpplayer.BorderSizePixel = 0
+tpplayer.Position = UDim2.new(-1.58346558, 0, 1.57517302, 0)
+tpplayer.Size = UDim2.new(0, 75, 0, 34)
+tpplayer.ZIndex = 9
+tpplayer.Image = "rbxassetid://718584710"
+tpplayer.ImageColor3 = Color3.fromRGB(93, 93, 93)
+
+join_9.Name = "join"
+join_9.Parent = tpplayer
+join_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+join_9.BackgroundTransparency = 1.000
+join_9.Size = UDim2.new(0, 75, 0, 34)
+join_9.ZIndex = 6
+join_9.Font = Enum.Font.SciFi
+join_9.Text = "JOIN"
+join_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+join_9.TextSize = 14.000
+join_9.TextTransparency = 0.300
+
+bg_9.Name = "bg"
+bg_9.Parent = tpplayer
+bg_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bg_9.Position = UDim2.new(-5.25333357, 0, -0.165649414, 0)
+bg_9.Size = UDim2.new(0, 481, 0, 45)
+bg_9.ZIndex = 2
+bg_9.Style = Enum.FrameStyle.DropShadow
+
+name_12.Name = "name"
+name_12.Parent = tpplayer
+name_12.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+name_12.BackgroundTransparency = 1.000
+name_12.Position = UDim2.new(-2.4666667, 0, 0, 0)
+name_12.Size = UDim2.new(0, 169, 0, 34)
+name_12.ZIndex = 3
+name_12.Font = Enum.Font.SciFi
+name_12.PlaceholderText = "USER ID [WIP]"
+name_12.Text = ""
+name_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+name_12.TextSize = 17.000
+name_12.TextWrapped = true
+
+bg_10.Name = "bg"
+bg_10.Parent = tp_2
+bg_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bg_10.BackgroundTransparency = 1.000
+bg_10.Position = UDim2.new(-0.0200002342, 0, 0, 0)
+bg_10.Size = UDim2.new(0, 298, 0, 105)
+bg_10.Image = "rbxassetid://718526291"
+bg_10.ImageColor3 = Color3.fromRGB(42, 42, 42)
+
+dbg.Name = "dbg"
+dbg.Parent = tp_2
+dbg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dbg.BackgroundTransparency = 1.000
+dbg.Position = UDim2.new(-0.0299999993, 0, 0.469999999, 0)
+dbg.Size = UDim2.new(0, 298, 0, 122)
+dbg.Image = "rbxassetid://718526291"
+dbg.ImageColor3 = Color3.fromRGB(42, 42, 42)
+
+n.Name = "n"
+n.Parent = Inside
+n.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+n.BackgroundTransparency = 1.000
+n.Position = UDim2.new(-0.0360837206, 0, 0, 0)
+n.Size = UDim2.new(0, 291, 0, 251)
+
+TextLabel_14.Parent = n
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Size = UDim2.new(0, 290, 0, 244)
+TextLabel_14.ZIndex = 50
+TextLabel_14.Font = Enum.Font.SciFi
+TextLabel_14.Text = ""
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+
+misc_2.Name = "misc"
+misc_2.Parent = Inside
+misc_2.Active = true
+misc_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+misc_2.BackgroundTransparency = 1.000
+misc_2.BorderSizePixel = 0
+misc_2.Position = UDim2.new(-0.0360837206, 0, 0, 0)
+misc_2.Size = UDim2.new(0, 291, 0, 251)
+misc_2.Visible = false
+misc_2.BottomImage = ""
+misc_2.CanvasSize = UDim2.new(0, 0, 1.25, 0)
+misc_2.ScrollBarThickness = 3
+misc_2.TopImage = ""
+
+UIListLayout_4.Parent = misc_2
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.Padding = UDim.new(0, 100)
+
+fake.Name = "fake"
+fake.Parent = misc_2
+fake.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fake.BackgroundTransparency = 1.000
+fake.Position = UDim2.new(-2.76086974, 0, 0.508196712, 0)
+fake.Size = UDim2.new(0, 284, 0, 148)
+fake.ZIndex = 9
+fake.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+fake.ImageTransparency = 1.000
+
+fake_2.Name = "fake"
+fake_2.Parent = fake
+fake_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fake_2.BorderSizePixel = 0
+fake_2.Size = UDim2.new(0, 284, 0, 100)
+fake_2.Image = "rbxassetid://779926815"
+
+fake_3.Name = "fake"
+fake_3.Parent = fake_2
+fake_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+fake_3.Position = UDim2.new(0, 0, 0.991155386, 0)
+fake_3.Size = UDim2.new(0, 285, 0, 50)
+fake_3.Style = Enum.ButtonStyle.RobloxRoundButton
+fake_3.Font = Enum.Font.Fantasy
+fake_3.Text = "Fake Blade"
+fake_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+fake_3.TextSize = 14.000
+fake_3.TextStrokeColor3 = Color3.fromRGB(72, 72, 72)
+fake_3.TextStrokeTransparency = 0.900
+fake_3.TextWrapped = true
+
+dog.Name = "dog"
+dog.Parent = misc_2
+dog.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+dog.Position = UDim2.new(-2.57971025, 0, 0.965449691, 0)
+dog.Size = UDim2.new(0, 284, 0, 50)
+dog.Style = Enum.ButtonStyle.RobloxRoundButton
+dog.Font = Enum.Font.Fantasy
+dog.Text = "Dog Animation"
+dog.TextColor3 = Color3.fromRGB(255, 255, 255)
+dog.TextSize = 14.000
+dog.TextStrokeColor3 = Color3.fromRGB(72, 72, 72)
+dog.TextStrokeTransparency = 0.900
+dog.TextWrapped = true
+
+Frame.Parent = dog
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(-0.0457746461, 0, -4.23999977, 0)
+Frame.Size = UDim2.new(0, 284, 0, 100)
+Frame.Style = Enum.FrameStyle.DropShadow
+
+TextLabel_15.Parent = Frame
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(-0.0316901393, 0, -0.100000001, 0)
+TextLabel_15.Size = UDim2.new(0, 284, 0, 100)
+TextLabel_15.Font = Enum.Font.SciFi
+TextLabel_15.Text = "Woof."
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 35.000
+TextLabel_15.TextStrokeTransparency = 0.900
+
+other_2.Name = "other"
+other_2.Parent = Inside
+other_2.Active = true
+other_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+other_2.BackgroundTransparency = 1.000
+other_2.Position = UDim2.new(-0.0360837206, 0, 0, 0)
+other_2.Size = UDim2.new(0, 291, 0, 251)
+other_2.Visible = false
+other_2.CanvasSize = UDim2.new(0, 0, 1, 0)
+
+show.Name = "show"
+show.Parent = other_2
+show.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+show.Position = UDim2.new(-0.0652920976, 0, 0.0505347215, 0)
+show.Size = UDim2.new(0, 260, 0, 50)
+show.Style = Enum.ButtonStyle.RobloxRoundButton
+show.Font = Enum.Font.SciFi
+show.Text = "Show Glass"
+show.TextColor3 = Color3.fromRGB(255, 255, 255)
+show.TextScaled = true
+show.TextSize = 14.000
+show.TextStrokeTransparency = 0.900
+show.TextWrapped = true
+
+hide.Name = "hide"
+hide.Parent = other_2
+hide.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+hide.Position = UDim2.new(0.0206185561, 0, 0.263649493, 0)
+hide.Size = UDim2.new(0, 260, 0, 50)
+hide.Style = Enum.ButtonStyle.RobloxRoundButton
+hide.Font = Enum.Font.SciFi
+hide.Text = "Hide Glass"
+hide.TextColor3 = Color3.fromRGB(255, 255, 255)
+hide.TextScaled = true
+hide.TextSize = 14.000
+hide.TextStrokeTransparency = 0.900
+hide.TextWrapped = true
+
+vip.Name = "vip"
+vip.Parent = other_2
+vip.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+vip.BackgroundTransparency = 0.400
+vip.BorderColor3 = Color3.fromRGB(255, 237, 93)
+vip.BorderSizePixel = 0
+vip.Position = UDim2.new(-1.23123288, 0, -0.0249323696, 0)
+vip.Size = UDim2.new(0, 100, 0, 100)
+vip.Image = "rbxassetid://7163084812"
+
+buy_5.Name = "buy"
+buy_5.Parent = vip
+buy_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+buy_5.BackgroundTransparency = 0.800
+buy_5.BorderSizePixel = 0
+buy_5.Size = UDim2.new(1, 0, 1, 0)
+buy_5.Font = Enum.Font.Code
+buy_5.Text = "Click to Equip"
+buy_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+buy_5.TextSize = 14.000
+
+type_5.Name = "type"
+type_5.Parent = vip
+type_5.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+type_5.BackgroundTransparency = 0.500
+type_5.BorderSizePixel = 0
+type_5.Position = UDim2.new(0, 0, 1, -20)
+type_5.Size = UDim2.new(1, 0, 0, 20)
+type_5.Font = Enum.Font.SourceSansItalic
+type_5.Text = "Display"
+type_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+type_5.TextSize = 11.000
+type_5.TextStrokeTransparency = 0.950
+type_5.TextTransparency = 0.300
+type_5.TextWrapped = true
+
+TextLabel_16.Parent = type_5
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_16.BackgroundTransparency = 0.900
+TextLabel_16.BorderSizePixel = 0
+TextLabel_16.Position = UDim2.new(0, 0, 0, -1)
+TextLabel_16.Size = UDim2.new(1, 0, 0, 1)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = ""
+TextLabel_16.TextSize = 14.000
+
+TextLabel_17.Parent = TextLabel_16
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_17.BackgroundTransparency = 0.950
+TextLabel_17.BorderSizePixel = 0
+TextLabel_17.Position = UDim2.new(0, 0, 0, -1)
+TextLabel_17.Size = UDim2.new(1, 0, 0, 1)
+TextLabel_17.Font = Enum.Font.SourceSans
+TextLabel_17.Text = ""
+TextLabel_17.TextSize = 14.000
+
+name_13.Name = "name"
+name_13.Parent = vip
+name_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_13.BackgroundTransparency = 1.000
+name_13.Size = UDim2.new(1, 0, 0, 20)
+name_13.Font = Enum.Font.SciFi
+name_13.Text = "VIP Knife"
+name_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+name_13.TextSize = 12.000
+name_13.TextStrokeTransparency = 0.950
+
+black.Name = "black"
+black.Parent = other_2
+black.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+black.BackgroundTransparency = 0.400
+black.BorderColor3 = Color3.fromRGB(255, 237, 93)
+black.BorderSizePixel = 0
+black.Position = UDim2.new(-1.23123288, 0, -0.0249323696, 0)
+black.Size = UDim2.new(0, 100, 0, 100)
+black.Image = "rbxassetid://7163107091"
+
+buy_6.Name = "buy"
+buy_6.Parent = black
+buy_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+buy_6.BackgroundTransparency = 0.800
+buy_6.BorderSizePixel = 0
+buy_6.Size = UDim2.new(1, 0, 1, 0)
+buy_6.Font = Enum.Font.Code
+buy_6.Text = "Click to Equip"
+buy_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+buy_6.TextSize = 14.000
+
+type_6.Name = "type"
+type_6.Parent = black
+type_6.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+type_6.BackgroundTransparency = 0.500
+type_6.BorderSizePixel = 0
+type_6.Position = UDim2.new(0, 0, 1, -20)
+type_6.Size = UDim2.new(1, 0, 0, 20)
+type_6.Font = Enum.Font.SourceSansItalic
+type_6.Text = "Torso Color"
+type_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+type_6.TextSize = 11.000
+type_6.TextStrokeTransparency = 0.950
+type_6.TextTransparency = 0.300
+type_6.TextWrapped = true
+
+TextLabel_18.Parent = type_6
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_18.BackgroundTransparency = 0.900
+TextLabel_18.BorderSizePixel = 0
+TextLabel_18.Position = UDim2.new(0, 0, 0, -1)
+TextLabel_18.Size = UDim2.new(1, 0, 0, 1)
+TextLabel_18.Font = Enum.Font.SourceSans
+TextLabel_18.Text = ""
+TextLabel_18.TextSize = 14.000
+
+TextLabel_19.Parent = TextLabel_18
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_19.BackgroundTransparency = 0.950
+TextLabel_19.BorderSizePixel = 0
+TextLabel_19.Position = UDim2.new(0, 0, 0, -1)
+TextLabel_19.Size = UDim2.new(1, 0, 0, 1)
+TextLabel_19.Font = Enum.Font.SourceSans
+TextLabel_19.Text = ""
+TextLabel_19.TextSize = 14.000
+
+name_14.Name = "name"
+name_14.Parent = black
+name_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name_14.BackgroundTransparency = 1.000
+name_14.Size = UDim2.new(1, 0, 0, 20)
+name_14.Font = Enum.Font.SciFi
+name_14.Text = "Black"
+name_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+name_14.TextSize = 12.000
+name_14.TextStrokeTransparency = 0.950
+
+UIGridLayout_2.Parent = other_2
+UIGridLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_2.CellPadding = UDim2.new(0, 20, 0, 30)
+
+Folder.Parent = other_2
+
+bg_11.Name = "bg"
+bg_11.Parent = Folder
+bg_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bg_11.BackgroundTransparency = 1.000
+bg_11.Position = UDim2.new(0, 15, 0, -5)
+bg_11.Size = UDim2.new(0, 260, 0, 110)
+bg_11.ZIndex = 0
+bg_11.Image = "rbxassetid://718526291"
+bg_11.ImageColor3 = Color3.fromRGB(42, 42, 42)
+
+bg_12.Name = "bg"
+bg_12.Parent = Folder
+bg_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bg_12.BackgroundTransparency = 1.000
+bg_12.Position = UDim2.new(0, 15, 0, 120)
+bg_12.Size = UDim2.new(0, 260, 0, 120)
+bg_12.ZIndex = 0
+bg_12.Image = "rbxassetid://718526291"
+bg_12.ImageColor3 = Color3.fromRGB(42, 42, 42)
+
+plrs.Name = "plrs"
+plrs.Parent = Inside
+plrs.Active = true
+plrs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+plrs.BackgroundTransparency = 1.000
+plrs.Position = UDim2.new(-0.0360837206, 0, 0, 0)
+plrs.Size = UDim2.new(0, 291, 0, 251)
+plrs.Visible = false
+plrs.CanvasSize = UDim2.new(0, 0, 1, 0)
+
+p.Name = "p"
+p.Parent = plrs
+
+UIListLayout_5.Parent = p
+UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_5.Padding = UDim.new(0, 4)
+
+temp.Name = "temp"
+temp.Parent = plrs
+temp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+temp.BackgroundTransparency = 1.000
+temp.Size = UDim2.new(0, 287, 0, 35)
+temp.Visible = false
+temp.Image = "rbxassetid://718526291"
+temp.ImageColor3 = Color3.fromRGB(0, 0, 0)
+temp.ImageTransparency = 0.200
+
+temp_2.Name = "temp"
+temp_2.Parent = temp
+temp_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+temp_2.BackgroundTransparency = 1.000
+temp_2.BorderSizePixel = 0
+temp_2.Size = UDim2.new(0, 287, 0, 35)
+temp_2.Font = Enum.Font.SciFi
+temp_2.Text = "Player"
+temp_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+temp_2.TextScaled = true
+temp_2.TextSize = 14.000
+temp_2.TextWrapped = true
+
+ban.Name = "ban"
+ban.Parent = temp_2
+ban.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ban.BackgroundTransparency = 0.850
+ban.Size = UDim2.new(0, 287, 0, 35)
+ban.Visible = false
+
+radio.Name = "radio"
+radio.Parent = temp_2
+radio.BackgroundColor3 = Color3.fromRGB(255, 183, 0)
+radio.BackgroundTransparency = 0.850
+radio.Size = UDim2.new(0, 287, 0, 35)
+radio.Visible = false
+
+tips.Name = "tips"
+tips.Parent = Fun
+tips.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tips.BackgroundTransparency = 1.000
+tips.Position = UDim2.new(-0.372370332, 0, 1.08000004, 0)
+tips.Size = UDim2.new(0, 379, 0, 75)
+tips.Image = "rbxassetid://718526291"
+tips.ImageColor3 = Color3.fromRGB(34, 34, 34)
+tips.ImageTransparency = 0.750
+tips.SliceCenter = Rect.new(100, 100, 100, 100)
+tips.SliceScale = 0.120
+
+t.Name = "t"
+t.Parent = tips
+t.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+t.BackgroundTransparency = 1.000
+t.Position = UDim2.new(0.021969758, 0, 0, 0)
+t.Size = UDim2.new(0, 370, 0, 75)
+t.Font = Enum.Font.SciFi
+t.Text = "pls click somewhere???"
+t.TextColor3 = Color3.fromRGB(255, 255, 255)
+t.TextScaled = true
+t.TextSize = 14.000
+t.TextWrapped = true
+
+credits.Name = "credits"
+credits.Parent = ScreenGui
+credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+credits.Position = UDim2.new(0.648809552, 0, 0.337423265, 0)
+credits.Size = UDim2.new(0, 379, 0, 36)
+credits.Style = Enum.FrameStyle.DropShadow
+
+credits_2.Name = "credits"
+credits_2.Parent = credits
+credits_2.BackgroundColor3 = Color3.fromRGB(154, 154, 154)
+credits_2.BackgroundTransparency = 1.000
+credits_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+credits_2.BorderSizePixel = 0
+credits_2.Position = UDim2.new(0.0992238522, 0, 0.0928221047, 0)
+credits_2.Size = UDim2.new(0, 283, 0, 17)
+credits_2.ZIndex = 2
+credits_2.Font = Enum.Font.SciFi
+credits_2.Text = ""
+credits_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+credits_2.TextScaled = true
+credits_2.TextSize = 14.000
+credits_2.TextTransparency = 0.500
+credits_2.TextWrapped = true
+
+-- Scripts:
+
+local function HXKXNJO_fake_script() -- ScreenGui.handler 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	
+	
+	-- General Locals
+	local bannedplayers = {}
+	local plrstable = {}
+	local plrs = game.Players
+	local lp = plrs.LocalPlayer
+	local tps = game:GetService("TeleportService")
+	
+	
+	-- Tips Messages
+	local randomtips = {
+		"Fun fact: go kys!",
+		"Fun fact: Frog started creating this script while Landon was watching, they later got into an argument because Frog craves attention.",
+		"This randomized message had a 1/5 chance of appearing, weehoo!",
+		"Fun fact: your username is \""..lp.Name.."\". 8)",
+		"I ran out of fun facts help. OH! I KNOW!! I SCRIPTED THIS WITH A CAT ON MY LAP!!!"
+	};
+	
+	local tpTip = "Fun fact:\nBreaking point uses a function to teleport you.\nFrog was too lazy to use it to teleport you though. ☻"
+	local shopTip = "Prices (credits):\nCandy Crown : 10K\nRoyal Red : 10K\nAntlers : 10K\n/e rain : 3"
+	local shopTip2 = "Please do not buy anything except /e rain in a public server, it'll warn everyone."
+	local shopTip3 = "Antlers' colors are randomly selected, (it's a crate) so be lucky!!! (2\% of getting the divine antlers!)"
+	local miscTip = "Only you will see your blade, you cannot throw it but everyone sees the animation!"
+	local otherTip = "Show Glass and Hide Glass are WIP, it costs 1K credits to change your torso color to black."
+	local otherTip2 = "You have to click on Fake VIP standing blade every round."
+	local playersTip = "If someone's name is red, they're trade banned."
+	local playerTip2 = "If someone's name is gold, they own a radio."
+	local playerTip3 = "A friend icon will show up next to your friends. 8)"
+	
+	
+	-- UI Locals
+	local handler = script.Parent
+	local inside = handler.Fun.Inside
+	local buttons = handler.Lbackground.s
+	local plrUI = inside.plrs
+	local folder = plrUI.p
+	local temp = plrUI.temp
+	local tipframe = handler.Fun.tips
+	
+	
+	-- Game Locals
+	local remoteE = game.ReplicatedStorage:FindFirstChild("RemoteEvent")
+	local remoteF = game.ReplicatedStorage:FindFirstChild("RemoteFunction")
+	local idfk = game.ReplicatedStorage.model.DogAnimate:Clone()
+	local fblade = game.ReplicatedStorage.Blade:Clone()
+	fblade.Name = "fakeB"
+	
+	
+	-- Non Constant
+	x = 0
+	oldtip = " "
+	randomTip = " "
+	
+	
+	
+	-- Funny
+	spawn(function()
+		handler.credits.credits:FindFirstChildOfClass("LocalScript"):GetPropertyChangedSignal("Disabled"):Connect(function()
+			if handler.credits.credits:FindFirstChildOfClass("LocalScript").Disabled == true then 
+				handler:Destroy()
+			end
+		end)
+		handler.credits.ChildRemoved:Connect(function()
+			if not handler.credits.credits:FindFirstChildOfClass("LocalScript") then 
+				handler:Destroy()
+			end
+		end)
+		handler.ChildRemoved:Connect(function()
+			if not handler:FindFirstChild("credits") then 
+				handler:Destroy()
+			end
+		end)
+	end)
+	
+	
+	
+	-- Gui Clicking
+	function plrClickedUI()
+		if inside.plrs.Visible == false then
+			for i,v in pairs(inside:GetChildren()) do 
+				if v.Name ~= "plrs" and v.Visible == true then 
+					v.Visible = false			
+				end
+			end	
+			spawn(function()
+				inside.plrs.Visible = true
+			end)
+		else
+			inside.plrs.Visible = false
+			inside.n.Visible = true
+		end
+	end
+	
+	
+	function tpClickedUI()
+		if inside.tp.Visible == false then
+			for i,v in pairs(inside:GetChildren()) do 
+				if v.Name ~= "tp" and v.Visible == true then 
+					v.Visible = false			
+				end
+			end	
+			spawn(function()
+				inside.tp.Visible = true
+			end)
+		else
+			inside.tp.Visible = false
+			inside.n.Visible = true
+		end
+	end
+	
+	
+	function shopClickedUI()
+		if inside.shop.Visible == false then
+			for i,v in pairs(inside:GetChildren()) do 
+				if v.Name ~= "shop" and v.Visible == true then
+					v.Visible = false
+				end
+			end
+			spawn(function()
+				inside.shop.Visible = true
+			end)
+		else
+			inside.shop.Visible = false
+			inside.n.Visible = true
+		end
+	end
+	
+	
+	function miscClickedUI()
+		if inside.misc.Visible == false then
+			for i,v in pairs(inside:GetChildren()) do 
+				if v.Name ~= "misc" and v.Visible == true then
+					v.Visible = false
+				end
+			end
+			spawn(function()
+				inside.misc.Visible = true
+			end)
+		else
+			inside.misc.Visible = false
+			inside.n.Visible = true
+		end
+	end
+	
+	
+	function otherClickedUI()
+		if inside.other.Visible == false then
+			for i,v in pairs(inside:GetChildren()) do 
+				if v.Name ~= "other" and v.Visible == true then
+					v.Visible = false
+				end
+			end
+			spawn(function()
+				inside.other.Visible = true
+			end)
+		else
+			inside.other.Visible = false
+			inside.n.Visible = true
+		end
+	end
+	
+	
+	
+	-- Tips
+	inside.plrs:GetPropertyChangedSignal("Visible"):Connect(function()
+		if inside.plrs.Visible == true then 
+			repeat
+				if inside.plrs.Visible == true then 
+					tipframe.t.Text = playersTip
+					wait(5)
+				end
+				if inside.plrs.Visible == true then 
+					tipframe.t.Text = playerTip2
+					wait(5)
+				end
+				if inside.plrs.Visible == true then 
+					tipframe.t.Text = playerTip3
+					wait(5)
+				end		
+			until inside.plrs.Visible == false
+		end
+	end)
+	
+	
+	inside.tp:GetPropertyChangedSignal("Visible"):Connect(function()
+		if inside.tp.Visible == true then 
+			repeat
+				tipframe.t.Text = tpTip
+				wait(5)
+			until inside.tp.Visible == false
+		end
+	end)
+	
+	
+	inside.shop:GetPropertyChangedSignal("Visible"):Connect(function()
+		if inside.shop.Visible == true then 
+			repeat
+				if inside.shop.Visible == true then 
+					tipframe.t.Text = shopTip
+					wait(5)
+				end
+				if inside.shop.Visible == true then
+					tipframe.t.Text = shopTip2
+					wait(5)
+				end
+				if inside.shop.Visible == true then
+					tipframe.t.Text = shopTip3
+					wait(5)
+				end				
+			until inside.shop.Visible == false
+		end
+	end)
+	
+	
+	inside.misc:GetPropertyChangedSignal("Visible"):Connect(function()
+		if inside.misc.Visible == true then 
+			repeat
+				tipframe.t.Text = miscTip
+				wait(5)
+			until inside.misc.Visible == false
+		end
+	end)
+	
+	
+	inside.other:GetPropertyChangedSignal("Visible"):Connect(function()
+		if inside.other.Visible == true then 
+			repeat
+				if inside.other.Visible == true then 
+					tipframe.t.Text = otherTip
+					wait(5)
+				end
+				if inside.other.Visible == true then
+					tipframe.t.Text = otherTip2
+					wait(5)
+				end			
+			until inside.other.Visible == false
+		end
+	end)
+	
+	
+	inside.n:GetPropertyChangedSignal("Visible"):Connect(function()
+		if inside.n.Visible == true then 
+			repeat
+				if inside.n.Visible == true then
+					randomTip = randomtips[math.random(1,#randomtips)]
+					if 	oldtip ~= randomTip then
+						oldtip = randomTip
+						tipframe.t.Text = randomTip
+						wait(5)
+					end
+				end
+			until inside.n.Visible == false
+		end
+	end)
+	
+	
+	
+	-- Clickables
+	buttons.plr.MouseButton1Click:Connect(plrClickedUI)
+	buttons.tp.MouseButton1Click:Connect(tpClickedUI)
+	buttons.shop.MouseButton1Click:Connect(shopClickedUI)
+	buttons.misc.MouseButton1Click:Connect(miscClickedUI)
+	buttons.other.MouseButton1Click:Connect(otherClickedUI)
+	
+	
+	
+	-- Leaderboard
+	local function checkbanned(baka) do 
+			for i,v in pairs(bannedplayers) do 
+				if v == baka then
+					return true
+				else return false
+				end
+			end
+		end
+	end
+	
+	local function addtable()
+		for i,v in pairs(plrs:GetDescendants()) do
+			if v.Name == "tradebanned" and v.Value == true then 		
+				table.insert(bannedplayers, v.Parent.Name)
+			end
+		end
+	end
+	
+		
+	local function destroyslot(slot)
+		wait()
+		slot:Destroy()
+	end
+	
+	
+	local function remove(leaving)
+		
+		if leaving then
+			
+			local slot = plrUI:FindFirstChild(leaving)
+			local cor = coroutine.wrap(destroyslot)
+			cor(slot)
+			
+		end
+	end
+	
+	
+	local function add()
+		
+		local child = plrs:GetChildren()
+		
+		for i = 1, #child do
+			
+			if plrstable[child[i].Name] == nil then
+				plrstable[child[i].Name] = 1
+				
+				local slot = temp:Clone()
+				slot.Name = child[i].Name
+				slot.temp.Text = slot.Name
+				slot.Parent = folder
+				slot.Visible = true
+				
+				spawn(function()
+				if checkbanned(child[i]) == false then
+					slot.temp.ban.Visible = true
+				end			
+				end)
+				
+			end
+		end
+	end
+	
+	local function checks(leaving)
+		add()
+		remove(leaving)
+		
+		for i,v in pairs(plrstable) do
+			
+			local slot = folder:FindFirstChild(i)
+			
+		end
+	end
+	
+	plrs.PlayerAdded:Connect(function()
+		checks(nil)
+		addtable()
+	end)
+	
+	plrs.PlayerRemoving:Connect(function(leaving)
+		checks(leaving.Name)
+	end)
+	
+	plrs.PlayerAdded:Connect(function(joinedplayer)
+		repeat
+			wait()
+		until joinedplayer:FindFirstChild("tradebanned")
+		repeat
+			wait(3)
+			x = x + 1
+		until x == 5 or joinedplayer.tradebanned.Value == true
+		addtable()
+		wait()
+		checks(nil)
+	end)
+	
+	spawn(function()
+		addtable()
+		print(table.concat(bannedplayers,", "))
+		checks()
+	end)
+	
+	
+	
+	-- Shop Clicked
+	function ccClicked()
+		remoteF:InvokeServer(66,"Knife Skins","Winter Gift")
+	end
+	
+	function rrClicked()
+		remoteF:InvokeServer(66,"Chair Skins","Winter")
+	end
+	
+	function erainClicked()
+		remoteF:InvokeServer(66,"Animations","Exclusive")
+	end
+	
+	function antlerClicked()
+		remoteF:InvokeServer(66,"Accessories","Knife Anters")
+	end
+	
+	inside.shop.cc.MouseButton1Click:Connect(ccClicked)
+	inside.shop.rr.MouseButton1Click:Connect(rrClicked)
+	inside.shop.rain.MouseButton1Click:Connect(erainClicked)
+	inside.shop.a.MouseButton1Click:Connect(antlerClicked)
+	
+	
+	
+	-- Tp Clicked
+	function bp()
+		tps:Teleport(834827615,lp)
+	end 
+	
+	function d()
+		tps:Teleport(1410026010,lp)
+	end
+	
+	function dds()
+		tps:Teleport(834829150,lp)
+	end
+	
+	function dv()
+		tps:Teleport(901462028,lp)
+	end
+	
+	function ffa()
+		tps:Teleport(987684187,lp)
+	end
+	
+	function gs()
+		tps:Teleport(1436726276,lp)
+	end
+	
+	function normal()
+		tps:Teleport(648362523,lp)
+	end
+	
+	inside.tp.places.bp.MouseButton1Click:Connect(bp)
+	inside.tp.places.d.MouseButton1Click:Connect(d)
+	inside.tp.places.dds.MouseButton1Click:Connect(dds)
+	inside.tp.places.dv.MouseButton1Click:Connect(dv)
+	inside.tp.places.ffa.MouseButton1Click:Connect(ffa)
+	inside.tp.places.gs.MouseButton1Click:Connect(gs)
+	inside.tp.places.normal.MouseButton1Click:Connect(normal)
+	
+	
+	
+	-- Special TP
+	function tpToPlace()
+		if inside.tp.tplace.placeid.Text:match("%d+") then
+			tps:Teleport(inside.tp.tpplace.placeid.Text,lp)
+		end
+	end
+	
+	
+	function tpToPlayer()
+		print("WIP")	
+	end
+	
+	
+	inside.tp.tp.tpplace.MouseButton1Click:Connect(tpToPlace)
+	inside.tp.tp.tpplayer.MouseButton1Click:Connect(tpToPlayer)
+	
+	
+	
+	-- Misc
+	function dog()
+		if not lp.Character:FindFirstChild("DogAnimate") and lp.Character:FindFirstChild("Animate") then 
+			lp.Character.Animate.Disabled = true
+			idfk.Parent = lp.Character
+		end
+	end
+	
+	function blade()
+		if not lp.Backpack:FindFirstChild("fakeB") or not lp.Character:FindFirstChild("fakeB") then 
+			fblade.Parent = lp.Backpack
+		end
+	end
+	
+	inside.misc.dog.MouseButton1Click:Connect(dog)
+	inside.misc.fake.fake.fake.MouseButton1Click:Connect(blade)
+	
+	
+	
+	-- Other
+	function showGlass()
+		for i, v in pairs(getgc(true)) do
+			if type(v) == "table" and rawget(v, "serverkeycomp") then
+				v.listens.showglass()
+			end
+		end
+	end
+	
+	function hideGlass()
+		for i, v in pairs(getgc(true)) do
+			if type(v) == "table" and rawget(v, "serverkeycomp") then
+				v.listens.hideglass()
+			end
+		end
+	end
+	
+	
+	function vip()
+		remoteE:FireServer(53,"Display Knife 2",true)
+	end
+	
+	function black()
+		remoteE:FireServer(15,-1)
+	end
+	
+	function hide()
+		hideGlass()
+	end
+	
+	function show()
+		showGlass()
+	end
+	
+	inside.other.vip.MouseButton1Click:Connect(vip)
+	inside.other.black.MouseButton1Click:Connect(black)
+	inside.other.hide.MouseButton1Click:Connect(hide)
+	inside.other.show.MouseButton1Click:Connect(show)
+end
+coroutine.wrap(HXKXNJO_fake_script)()
+local function EETULU_fake_script() -- TextLabel_14.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_14)
+
+	local lp = game.Players.LocalPlayer
+	wait()
+	script.Parent.Text = "Hello "..lp.Name.." !\nYou are currently using Frog's Breaking Point Script!\nWhich is rare, I thought I'd never release it.\nIn fact I never wanted to actually finish it.\nYou are either Luka, or Luka's friend, right??? Actually no you might also be frog himself.\nAnyways, have fun using my script!!!\n\nAdditional info:\nGame Place Id: "..game.PlaceId.."\nGame Job Id : "..game.JobId.."\n Local Player User Id : "..lp.UserId
+	
+end
+coroutine.wrap(EETULU_fake_script)()
+local function FFTWTZD_fake_script() -- credits_2.LocalScript 
+	local script = Instance.new('LocalScript', credits_2)
+
+	local plr = game.Players.LocalPlayer
+	local normal = "Frog's breaking point GUI"
+	script.Parent.Text = normal
+	yes = false
+	
+	
+	spawn(function()
+		repeat
+			clone = math.random(10,126)
+			script.Name = string.rep(string.char(math.random(1,126),math.random(10,126),math.random(12,126)),math.random(1,3))..plr.UserId..tostring(game.JobId)..string.rep(clone,4)
+			wait()
+		until yes 
+	end)
+	
+	
+	attempts = 0
+	
+	wait()
+	script.Parent:GetPropertyChangedSignal("Text"):Connect(function()
+		if script.Parent.Text ~= normal then 
+			script.Parent.Text = normal
+			attempts = attempts + 1 
+			print("You only have : "..3 - attempts.." left.")
+			if attempts == 3 then 
+				script.Parent.Parent:Destroy()
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(FFTWTZD_fake_script)()
