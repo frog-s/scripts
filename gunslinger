@@ -1,3 +1,6 @@
+-- ig lmao --
+repeat wait() until game.Players.LocalPlayer
+wait(5)
 -- Variables --
 local cmr = workspace.CurrentCamera
 local plrs = game.Players
@@ -9,7 +12,7 @@ local tps = game:GetService("TeleportService")
 if game.PlaceId == 1436726276 then 
     -- First person lock --
     lp.CameraMode = "LockFirstPerson"
-    while wait() do
+    gh.ChildAdded:Connect(function()
         -- Checks --
         if gh:FindFirstChild(lp.Name) then
             for i,fighters in pairs(gh:GetChildren()) do
@@ -17,14 +20,16 @@ if game.PlaceId == 1436726276 then
                 if fighters.Name ~= lp.Name then 
                     enemyN = fighters.Name 
                     -- Lock camera on other person -- 
-                    cmr.CFrame = CFrame.new(cmr.CFrame.Position, plrs[enemyN].Character.Head.Position)
+                    spawn(function()
+                        cmr.CFrame = CFrame.new(cmr.CFrame.Position, plrs[enemyN].Character.Head.Position)
+                    end)
                     wait()
                     -- Click --
                     mouse1click()
                 end
             end
         end
-    end
+    end)
 else 
     -- Tp lol --
    tps:Teleport(1436726276,lp) 
