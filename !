@@ -13,3 +13,4 @@ until IsAlive()
 syn.queue_on_teleport("wait(30) loadstring(game:HttpGet('https://raw.githubusercontent.com/frog-s/scripts/main/main'))()")
 warn('TELEPORT SET MY GUY!')
 print('LOL SET THE TP MY GUY [2] !')
+
