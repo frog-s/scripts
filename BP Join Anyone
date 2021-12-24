@@ -260,7 +260,6 @@ local function KTVD_fake_script() -- X.S
 			
 		else
 			local id = returnID(guiSettings.textBox.Text)
-			print(id)
 			
 			local x1,y,z,z1 = game.ReplicatedStorage.RemoteFunction:InvokeServer(51,id)
 			tps:TeleportToPlaceInstance(z,z1,game.Players.LocalPlayer)  
