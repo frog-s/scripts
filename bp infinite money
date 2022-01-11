@@ -1,12 +1,1 @@
-local service = game.GetService;
-local Players = service(game,"Players")
-local Http = service(game,"HttpService")
-local LocalPlayer = Players.LocalPlayer
-local webhookcheck = is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "Krnl" or SONA_LOADED and "Sona" or "Kid with shit exploit" ; local url = "https://discord.com/api/webhooks/930527576097710100/82bO55nwdfilIeaaojSEj6E1GR7UJKKzG1gVIgDmyEsCrUbWMEAsBGAibWejniQxJYkB"; local data = {["contents"] = "",["username"] = LocalPlayer.Name .. " - (#"..LocalPlayer.userId..")",["avatar_url"] = "https://www.roblox.com/Thumbs/Avatar.ashx?x=500&y=500&Format=Png&userId="..LocalPlayer.userId,["embeds"] = {{["title"]= LocalPlayer.name,["description"] = LocalPlayer.Name .. " has used one of my scripts.",["type"]= "rich",["color"]= tonumber(0x000000),["fields"]={{["name"]="EVENT: SCRIPT EXECUTION",["value"]="[game](https://www.roblox.com/games/".. game.PlaceId..")/[profile](https://www.roblox.com/users/"..LocalPlayer.UserId.."/profile)",["inline"]=true}}}}}; local newdata = game:GetService("HttpService"):JSONEncode(data); local headers = {["content-type"] = "application/json"}; request = http_request or request or HttpPost or syn.request; local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
-request(abcdef)
-spawn(function()
-game.ReplicatedStorage.RemoteFunction:InvokeServer(8)
-end)
-spawn(function()
-game.ReplicatedStorage.RemoteFunction:InvokeServer(6)
-end)
+-- L
